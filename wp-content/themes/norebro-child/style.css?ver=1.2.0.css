@@ -1,0 +1,239 @@
+/*!
+Theme Name: Norebro Child
+Theme URI: http://norebro.colabr.io/
+Author: Colabrio Team
+Author URI: http://colabr.io/
+Description: Norebro is flexible and high performance multipurpose WordPress Theme for personal and corporate use. It comes with the most popular WordPress page builder Visual Composer. Create gorgeous pages and layouts fast and easy without coding.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: norebro
+Text Domain: norebro-child
+Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-colors, custom-header, custom-menu, featured-images, full-width-template, post-formats, theme-options, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+
+
+.apply-now-btn {
+  background-color: rgba(0,0,0,0); 
+  border: 2px solid #FFFFFF;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20%;
+}
+
+.apply-now-btn:hover {
+	background-color: #D81F62;
+	border: 2px solid #D81F62;
+}
+
+.vc_custom_1556188435549 {
+/* 	    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important; */
+}
+
+.scroll-top:hover {
+	border-color: #CF0C4E !important;
+}
+
+#cookie-law-info-again {
+	display: none !important;
+}
+
+
+.poster {
+	color: #ffffff !important;
+	border: 2px solid #ffffff;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.poster:hover {
+	background: #CF0C4E;
+	color: #ffffff;
+	text-decoration: none;
+	border-color: #CF0C4E;
+}
+
+.postid-5674346 .header-title .subtitle a {
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	padding: 10px 20px;
+	font-weight: bold;
+}
+.postid-5674346 .header-title .subtitle a:hover {
+	text-decoration: none !important;
+	background: #CF0C4E;
+	border: 2px solid #CF0C4E;
+}
+.postid-5674346 .header-title .page-title {
+	margin-bottom: 20px;
+}
+
+/*!
+.hide-element {
+	display: none !important;
+}*/
+
+
+.page-id-5672037 .subtitle {
+	  font-size: 18px;
+    line-height: 30px;
+    color: #f2f2f2;
+}
+
+.project-summaries-button {
+	border: 2px solid #CF0C4E;
+	padding: 15px 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.project-summaries-button:hover {
+	background: #CF0C4E;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.flickr-gallery {
+	border: 2px solid #CF0C4E;
+	padding: 10px 25px;
+	font-weight: bold;
+}
+.flickr-gallery:hover {
+	background: #CF0C4E;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+/* Sponsors */
+.clients-logos-dd .wpb_wrapper {
+	min-height: 170px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+/* 	margin: 10px; */
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.25);
+	background: #ffffff;
+	transition: 0.2s;
+}
+.clients-logos-dd .wpb_wrapper:hover {
+	box-shadow: 0 3px 7px 0 rgba(53,55,58,0.25);
+}
+
+.parallax-bg {
+	background-attachment: fixed;
+  background-position: center;
+	position: relative;
+	margin-top: -30px;
+/* 	z-index: 1; */
+/* 	background: linear-gradient(#e66465, #9198e5) !important; */
+}
+
+#code-of-conduct a {
+	text-decoration: underline !important;
+}
+#code-of-conduct a:hover {
+	opacity: 0.8;
+}
+
+.item .title{
+	border-radius: 5px !important;
+}
+
+
+/* Search */
+.search-results .page-sidebar {
+	display: none;
+}
+.search-results .page-content {
+	width: 100%;
+}
+
+
+@media screen and (min-width: 1025px) {
+	
+#code-of-conduct, .parallax-bg, .cut-corners {
+	-webkit-clip-path: polygon(5% 0, 95% 0, 100% 5%, 100% 100%, 95% 100%, 5% 100%, 0 95%, 0 0);
+	clip-path: polygon(5% 0, 95% 0, 100% 5%, 100% 100%, 95% 100%, 5% 100%, 0 95%, 0 0);
+}
+	#code-of-conduct {
+		padding-bottom: 30px;
+	}
+}
+
+@media screen and (min-width: 760px) and (max-width: 925px) {
+	.vc_column-inner.vc_custom_1556816695796 {
+		padding-left: 30px !important;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+	.page-id-5651023 div.vc_row.vc_row-flex {
+		display: grid !important;
+		grid-template-columns: 1fr 1fr !important;
+	}
+}
+
+@media screen and (max-width: 925px) {
+	.vc_column-inner.vc_custom_1556816695796 {
+		padding-top: 60px !important;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.clients-logos-dd .wpb_wrapper img{
+		max-height: 140px !important;
+	}
+	.clients-logos-dd .wpb_wrapper {
+		margin: 10px !important;
+	}
+/*	#masthead #site-navigation.main-nav #mega-menu-wrap #primary-menu .mega-menu-item.current-menu-item > a.menu-link span:before, #masthead #site-navigation.main-nav #mega-menu-wrap #primary-menu .mega-menu-item.current-menu-ancestor > a.menu-link span:before, #masthead #site-navigation.main-nav #mega-menu-wrap #primary-menu .mega-menu-item a.menu-link:hover span:before, #masthead #site-navigation.main-nav #mega-menu-wrap #primary-menu .mega-menu-item a.menu-link.open span:before {
+		display: none !important;
+	}
+	*/
+}
+@media screen and (max-width: 460px) {
+	.mobile-logo img {
+		max-width: 90px !important;
+	}
+	.vc_column-inner.vc_custom_1556816695796 {
+		padding-left: 10px !important;
+	}
+	.header-wrap {
+		padding-left: 5px !important;
+		padding-right: 5px !important;
+	}
+	#masthead .menu-other > li.social {
+/* 		padding-right: 0 !important; */
+	}
+	.menu-other .search a {
+		padding-left: 5px !important;
+	}
+}
+@media screen and (max-width: 360px) {
+	.download-sponsorship {
+		font-size: 12px;
+	}
+}
+
+.vc_tta-panel-title .vc_tta-title-text {
+	    color: inherit;
+    margin: 0 0 -4px;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 600;
+    display: inline-block;
+}
